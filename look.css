@@ -1,0 +1,245 @@
+body{
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.topinfo{
+    text-align: center;
+    margin: 10px 5% 20px 5%;
+    background-color: #ebdfeb;
+    position: relative;
+    border-radius: 10px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 40px;
+}
+
+#source{
+    padding-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+a{
+    color: black;
+    font-style: italic;
+}
+
+form{
+    margin: 10vh auto;
+    width: 350px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+.username, .password{
+    display: flex;
+    margin: 10px;
+}
+
+label{
+    font-weight: bold;
+    flex: 0 0 100px;
+}
+
+input{
+    flex: 1; 
+}
+
+#submitbtn{
+    margin: 10px auto;
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    border: 1px solid silver;
+    padding: 5px 10px;
+    background-color: #e9e9ed;
+}
+
+legend{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+legend::first-letter{
+    font-size: 1.5rem;
+}
+
+.musicInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContainer{
+    padding-left: 7%;
+    margin-bottom: 10px; 
+}
+
+#genreSearchLine{
+    margin-left: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 2px solid #e7e7e7;
+    color: #6d7c85;
+    font-size: 0.7rem;
+    width: 30%;
+    height: 25px;
+}
+
+.genreButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+.genreButton button{
+    border-radius: 5px; 
+    border: 0;
+    background-color: #dcdcdc;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.error{
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 10px 0px 10px 5%;
+}
+
+.genre:hover{
+    background-color: #e9e9ed;
+    cursor: pointer;
+}
+
+.music{
+    display: flex;
+    margin: 10px 5% 10px 5%;
+    background-color: #f2f2fc;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+}
+
+.musicLeft{
+    display: flex;
+    flex: 0 0 45%;
+}
+
+.musicRight{
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+.CC4{
+    margin-left: 20px;
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+}
+
+.musicPlayCount{
+    margin-left: 10px;
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    flex: 0 0 15%;
+}
+
+.musicLength{
+ flex: 0 0 15%; 
+}
+
+.isPause{
+    display: none;
+    align-self: center;
+    color: chocolate;
+    font: bold;
+    font-size: 1.2rem;
+}
+
+.play{
+    width: 20px;
+    height: auto;
+    object-fit: contain;
+    flex: 0 0 40px;
+    margin-right: 10px;
+}
+
+.pause{
+    width: 20px;
+    height: auto;
+    object-fit: contain;
+    flex: 0 0 40px;
+    margin-right: 10px;
+    display: none;
+}
+
+.continue{
+    width: 20px;
+    height: auto;
+    object-fit: contain;
+    flex: 0 0 40px;
+    margin-right: 10px;
+    display: none;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+
+.pause:hover{
+    cursor: pointer; 
+}
+
+.continue:hover{
+    cursor: pointer; 
+    ;
+}
+
+.musicId{
+    display: none; 
+}
+
+.musicTitle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.musicArtist{
+    font-size: 0.9rem;
+}
+
+.musicTags{
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+.emptyMusic{
+    margin-left: 5%;
+}
+
+.musicTA{
+    flex: 0 0 50%
+}
